@@ -1,14 +1,15 @@
-:root {
-	/* ------- colors ------- */
-	--primary-color: #27272a;
-	--secondary-color: #65656d;
-	--tertiary-color: #acacb4;
-	--quaternary-color: #e4e4e7;
-	--link-color: #14b8a6;
-	/* ---------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Mono:wght@400;700&display=swap");
 
-	/* ------- fonts ------- */
-	--primary-font: "Heebo", sans-serif;
-	--secondary-font: "Roboto", sans-serif;
-	/* --------------------- */
+:root {
+	/* ------- Futuristic Dark Mode Colors ------- */
+	--bg-primary: #0D1117; 
+	--bg-secondary: #161B22; 
+	--text-primary: #E6EDF3; 
+	--text-secondary: #8D96A0; 
+	--border-primary: #30363D; 
+	--accent-primary: #58A6FF; 
+	--accent-secondary: #1F6FEB;
+	/* ------- Fonts ------- */
+	--font-primary: "Inter", sans-serif; 
+	--font-secondary: "Space Mono", monospace; 
 }

@@ -1,62 +1,34 @@
-import React from "react";
-
 function article_1() {
 	return {
-		date: "7 May 2023",
-		title: "The Benefits of Cloud Computing",
+		date: "22 Juni 2024",
+		title: "Membangun Aplikasi Analisis Influencer dengan Python, React, dan Machine Learning",
 		description:
-			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
+			"This project will use and compare two popular clustering methods, namely K-Means and DBSCAN, to see which method provides the most logical and accurate clustering results.",
 		keywords: [
-			"The Benefits of Cloud Computing",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
+			"Analisis Influencer",
+			"Python",
+			"React",
+			"Machine Learning",
+			"Wahyu Aji Nusantara",
 		],
-		style: `
-				.article-content {
-					display: flex;
-					flex-direction: column;
-					align-items: center;
-				}
-
-				.randImage {
-					align-self: center;
-					outline: 2px solid red;
-				}
-				`,
-		body: (
-			<React.Fragment>
-				<div className="article-content">
-					<div className="paragraph">Content of article 1</div>
-					<img
-						src="https://picsum.photos/200/300"
-						alt="random"
-						className="randImage"
-					/>
-				</div>
-			</React.Fragment>
-		),
+		link: "https://medium.com/@Whyawww/membangun-aplikasi-analisis-influencer-dengan-python-react-dan-machine-learning-7747911447d8",
 	};
 }
 
 function article_2() {
 	return {
-		date: "7 May 2023",
-		title: "Artificial Intelligence in Healthcare",
+		date: "19 Juni 2024",
+		title: "Membangun Ecommerce Cepat dengan React, Vite, dan Tailwind CSS",
 		description:
-			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",
-		style: ``,
+			"Membedah Proses Pembuatan E-commerce dengan Fitur Keranjang Belanja Dinamis Menggunakan React Hooks.",
 		keywords: [
-			"Artificial Intelligence in Healthcare",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
+			"Ecommerce",
+			"React",
+			"Vite",
+			"Tailwind CSS",
+			"Wahyu Aji Nusantara",
 		],
-		body: (
-			<React.Fragment>
-				<h1>Content of article 2</h1>
-			</React.Fragment>
-		),
+		link: "https://medium.com/@Whyawww/membangun-ecommerce-cepat-dengan-react-vite-dan-tailwind-css-4cb1358f96f6",
 	};
 }
 

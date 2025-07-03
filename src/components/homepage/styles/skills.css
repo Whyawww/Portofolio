@@ -1,0 +1,43 @@
+.skills-body {
+	display: flex;
+	flex-direction: column;
+	gap: 20px; /* Menambah jarak antar kategori */
+	padding-top: 10px;
+}
+
+.skill-category {
+	display: flex;
+	flex-direction: column;
+}
+
+.skill-category strong {
+	font-family: var(--font-secondary);
+	font-size: 16px; /* Sedikit lebih besar */
+	color: var(--text-primary);
+	margin-bottom: 12px; /* Jarak lebih besar */
+	text-transform: uppercase; /* Memberi kesan tegas */
+	letter-spacing: 1px;
+}
+
+.skill-tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px; /* Jarak antar tag */
+}
+
+.skill-tag {
+	background-color: rgba(88, 166, 255, 0.1); /* Latar belakang biru transparan */
+	color: var(--accent-primary); /* Warna teks biru aksen */
+	padding: 6px 16px;
+	border-radius: 20px; /* Lebih bulat */
+	font-size: 14px;
+	font-weight: 600;
+	border: 1px solid var(--accent-primary);
+	transition: all 0.3s ease;
+}
+
+.skill-tag:hover {
+	background-color: var(--accent-primary); /* Latar belakang penuh saat hover */
+	color: var(--bg-primary); /* Teks menjadi gelap */
+	box-shadow: 0 0 15px rgba(88, 166, 255, 0.4);
+}
