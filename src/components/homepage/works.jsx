@@ -23,7 +23,7 @@ const Works = () => {
 							<div className="work-subtitle">
 								Volunteer Content Writer
 							</div>
-							<div className="work-duration">29 Mei 2024 - Now</div>
+							<div className="work-duration">29 Mei 2024 - Present</div>
 						</div>
 
 						<div className="work">
@@ -36,7 +36,7 @@ const Works = () => {
 								BPC Universitas Amikom Yogyakarta
 							</div>
 							<div className="work-subtitle">
-								Surveyor (Magang)
+								Surveyor (Internship)
 							</div>
 							<div className="work-duration">Sep 2023 - Feb 2024</div>
 						</div>

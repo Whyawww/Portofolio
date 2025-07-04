@@ -4,7 +4,7 @@ const INFO = {
 		name: "Wahyu Aji Nusantara",
 		email: "wahji5723@gmail.com",
 		logo: "../logo.png",
-		cv: "../CV Wahyu Aji Nusantara.pdf",
+		cv: "/CV-WahyuAjiNusantara.pdf",
 	},
 
 	socials: {
@@ -49,7 +49,7 @@ const INFO = {
 			{ name: "Jupyter", logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" },
 			{ name: "VS Code", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" },
 			{ name: "Figma", logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
-			{ name: "Canva", logoUrl: "https://www.svgrepo.com/show/349333/canva.svg" },
+			{ name: "Canva", logoUrl: "https://www.vecteezy.com/vector-icons/48759334-canva-transparent-icon" },
 		],
 	},
 

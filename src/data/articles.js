@@ -1,6 +1,6 @@
 function article_1() {
 	return {
-		date: "22 Juni 2024",
+		date: "28 Juni 2025",
 		title: "Membangun Aplikasi Analisis Influencer dengan Python, React, dan Machine Learning",
 		description:
 			"This project will use and compare two popular clustering methods, namely K-Means and DBSCAN, to see which method provides the most logical and accurate clustering results.",
@@ -17,7 +17,7 @@ function article_1() {
 
 function article_2() {
 	return {
-		date: "19 Juni 2024",
+		date: "19 Juni 2025",
 		title: "Membangun Ecommerce Cepat dengan React, Vite, dan Tailwind CSS",
 		description:
 			"Membedah Proses Pembuatan E-commerce dengan Fitur Keranjang Belanja Dinamis Menggunakan React Hooks.",

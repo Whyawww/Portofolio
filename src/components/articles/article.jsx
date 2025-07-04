@@ -8,27 +8,27 @@ const Article = (props) => {
 	const { date, title, description, link } = props;
 
 	return (
-		<React.Fragment>
-			<div className="article">
-				<div className="article-left-side">
-					<div className="article-date">{date}</div>
-				</div>
-
-				<a href={link} target="_blank" rel="noopener noreferrer">
-					<div className="article-right-side">
-						<div className="article-title">{title}</div>
-						<div className="article-description">{description}</div>
-						<div className="article-link">
-							Read Article{" "}
-							<FontAwesomeIcon
-								style={{ fontSize: "10px" }}
-								icon={faChevronRight}
-							/>
-						</div>
+		<div className="article">
+			<div className="article-date">{date}</div>
+			<a
+				href={link}
+				target="_blank"
+				rel="noopener noreferrer"
+				className="article-link"
+			>
+				<div className="article-content">
+					<div className="article-title">{title}</div>
+					<div className="article-description">{description}</div>
+					<div className="article-read-more">
+						Read Article{" "}
+						<FontAwesomeIcon
+							className="fa-chevron-right"
+							icon={faChevronRight}
+						/>
 					</div>
-				</a>
-			</div>
-		</React.Fragment>
+				</div>
+			</a>
+		</div>
 	);
 };
 

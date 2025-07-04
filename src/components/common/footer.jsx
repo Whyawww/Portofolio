@@ -32,7 +32,7 @@ const Footer = () => {
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						© 2023 Wahyu Aji Nusantara. All Rights Reserved.
+						© 2025 Wahyu Aji Nusantara. All Rights Reserved.
 					</div>
 				</div>
 			</div>
