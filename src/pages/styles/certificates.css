@@ -74,7 +74,7 @@
 	transform: translateY(-5px);
 	border-color: var(--accent-primary);
 	box-shadow: 0 4px 20px rgba(88, 166, 255, 0.1);
-	background-color: #1c222b; /* Warna latar sedikit lebih terang saat hover */
+	background-color: #1c222b;
 }
 
 .certificate-card-title {
@@ -110,4 +110,46 @@
 
 .certificate-card:hover .certificate-card-view {
 	opacity: 1;
+}
+
+@media (max-width: 768px) {
+	.certificates-main-container {
+		padding-top: 80px;
+	}
+
+	.certificates-list {
+		grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+		gap: 15px;
+	}
+
+	.certificate-card-title {
+		font-size: 14px;
+	}
+
+	.certificate-card-issuer,
+	.certificate-card-achievement,
+	.certificate-card-view {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 480px) {
+	.certificates-main-container {
+		padding-top: 60px;
+	}
+
+	.certificates-list {
+		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+		gap: 10px;
+	}
+
+	.certificate-card-title {
+		font-size: 12px;
+	}
+
+	.certificate-card-issuer,
+	.certificate-card-achievement,
+	.certificate-card-view {
+		font-size: 10px;
+	}
 }

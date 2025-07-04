@@ -1,5 +1,6 @@
 .article {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .article a {
@@ -63,5 +64,40 @@
 		flex-basis: 90%;
 		min-width: 85%;
 		max-width: 85%;
+	}
+}
+
+@media (max-width: 768px) {
+	.article {
+		flex-direction: column;
+	}
+
+	.article-left-side {
+		min-width: 100%;
+		max-width: 100%;
+	}
+
+	.article-right-side {
+		flex-basis: 100%;
+		min-width: 100%;
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 480px) {
+	.article-date {
+		font-size: 13px;
+	}
+
+	.article-title {
+		font-size: 14px;
+	}
+
+	.article-description {
+		font-size: 11px;
+	}
+
+	.article-link {
+		font-size: 12px;
 	}
 }

@@ -1,20 +1,20 @@
 @import "../../../data/styles.css";
 
 .homepage-article {
-	width: 90%;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
 	mix-blend-mode: normal;
 	border-radius: 20px;
 	opacity: 0.8;
+	padding: 30px;
+	box-sizing: border-box;
 }
 
 .homepage-article:hover {
-	background: #fafafa;
+	background: #79c0ff;;
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
-}
-
-.homepage-article-content {
-	padding: 30px;
 }
 
 .homepage-article-date {
@@ -51,8 +51,21 @@
 	text-decoration: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
 	.homepage-article {
-		width: 100%;
+		padding: 20px;
 	}
 }
+
+@media (max-width: 768px) {
+	.homepage-article {
+		padding: 15px;
+	}
+}
+
+@media (max-width: 480px) {
+	.homepage-article {
+		padding: 10px;
+	}
+}
+

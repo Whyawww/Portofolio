@@ -22,12 +22,29 @@
 	padding-top: 120px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
 	.projects-container {
-		padding-top: 60px;
+		padding-top: 80px;
 	}
 
 	.projects-project {
 		width: calc(100% / 2);
 	}
 }
+
+@media (max-width: 768px) {
+	.projects-container {
+		padding-top: 60px;
+	}
+
+	.projects-project {
+		width: calc(100% / 1);
+	}
+}
+
+@media (max-width: 480px) {
+	.projects-container {
+		padding-top: 40px;
+	}
+}
+

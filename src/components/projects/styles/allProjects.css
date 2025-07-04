@@ -4,8 +4,8 @@
 	align-items: stretch;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	margin-left: -35px;
-	margin-right: -35px;
+	margin-left: -10px;
+	margin-right: -10px;
 }
 
 .all-projects-project {
@@ -15,8 +15,15 @@
 	overflow: hidden;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
 	.all-projects-project {
 		width: calc(100% / 2);
 	}
 }
+
+@media (max-width: 768px) {
+	.all-projects-project {
+		width: 100%;
+	}
+}
+

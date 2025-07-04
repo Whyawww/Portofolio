@@ -2,7 +2,7 @@
 
 .skills-container {
 	padding: 40px 0;
-	overflow: hidden; /* Penting untuk menyembunyikan logo di luar area */
+	overflow: hidden;
 }
 
 .skills-title {
@@ -28,11 +28,11 @@
 .skills-track {
 	display: flex;
 	animation: marquee 40s linear infinite;
-	will-change: transform; /* Optimasi performa animasi */
+	will-change: transform;
 }
 
 .skills-marquee:hover .skills-track {
-	animation-play-state: paused; /* Jeda animasi saat di-hover */
+	animation-play-state: paused; 
 }
 
 @keyframes marquee {
@@ -56,11 +56,12 @@
 .skill-card {
 	flex-shrink: 0;
 	width: 150px;
+	max-width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin: 0 20px;
+	margin: 0 10px;
 	background-color: var(--bg-secondary);
 	border-radius: 8px;
 	padding: 20px;
@@ -94,3 +95,50 @@
 	color: var(--text-secondary);
 	text-align: center;
 }
+
+@media (max-width: 768px) {
+	.skills-container {
+		padding: 20px 0;
+	}
+
+	.skills-title {
+		font-size: 20px;
+	}
+
+	.skills-marquee {
+		overflow-x: scroll;
+	}
+
+	.skills-track {
+		width: 100%;
+	}
+
+	.skill-card {
+		min-width: 150px;
+		margin: 0 5px;
+	}
+}
+
+@media (max-width: 480px) {
+	.skills-container {
+		padding: 15px 0;
+	}
+
+	.skills-title {
+		font-size: 16px;
+	}
+
+	.skills-marquee {
+		overflow-x: scroll;
+	}
+
+	.skills-track {
+		width: 100%;
+	}
+
+	.skill-card {
+		min-width: 100px;
+		margin: 0 2px;
+	}
+}
+

@@ -43,7 +43,7 @@
 .read-article-date-container {
 	border-left: 2px solid var(--quaternary-color);
 	color: var(--tertiary-color);
-	font-size: 16 px;
+	font-size: 16px;
 	align-items: center;
 	height: 22px;
 }
@@ -66,3 +66,41 @@
 	font-family: system-ui;
 	color: #52525b;
 }
+
+@media (max-width: 1024px) {
+	.read-article-container {
+		flex-direction: column;
+	}
+
+	.read-article-back {
+		padding-top: 20px;
+		padding-right: 20px;
+	}
+
+	.read-article-wrapper {
+		width: 100%;
+		padding-top: 20px;
+	}
+
+	.read-article-title {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+
+@media (max-width: 600px) {
+	.read-article-back {
+		padding-top: 10px;
+		padding-right: 10px;
+	}
+
+	.read-article-wrapper {
+		padding-top: 10px;
+	}
+
+	.read-article-title {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
