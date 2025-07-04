@@ -31,7 +31,23 @@ function article_2() {
 		link: "https://medium.com/@Whyawww/membangun-ecommerce-cepat-dengan-react-vite-dan-tailwind-css-4cb1358f96f6",
 	};
 }
+function article_3() {
+	return {
+		date: "04 Juli 2025",
+		title: "Completo: Menjawab Kebutuhan UMKM Katering yang Tak Terjangkau oleh Aplikasi Raksasa — Sebuah Studi Kasus UI/UX",
+		description:
+			"Bagaimana sebuah aplikasi yang berfokus pada pemesanan katering dan snack dalam jumlah besar berhasil menjadi solusi nyata bagi UMKM, sekaligus mengantarkan saya meraih penghargaan dalam kompetisi desain.",
+		keywords: [
+			"Ui Ux Design",
+			"Umkm",
+			"Figma",
+			"Mobile App Development",
+			"Wahyu Aji Nusantara",
+		],
+		link: "https://medium.com/@Whyawww/completo-menjawab-kebutuhan-umkm-katering-yang-tak-terjangkau-oleh-aplikasi-raksasa-sebuah-af2f96bf0a9c",
+	};
+}
 
-const myArticles = [article_1, article_2];
+const myArticles = [article_1, article_2, article_3];
 
 export default myArticles;
