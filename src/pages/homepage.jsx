@@ -175,7 +175,7 @@ const Homepage = () => {
 									className="cta-button"
 								>
 									<FontAwesomeIcon icon={faDownload} />
-									&nbsp; Download CV
+									&nbsp; Download Resume
 								</a>
 							</div>
 

@@ -1,60 +1,35 @@
 import React from "react";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import Card from "../common/card";
 import INFO from "../../data/user";
 
 import "./styles/skills.css";
 
 const Skills = () => {
-	const renderSkills = (skillArray) => {
-		return skillArray.map((skill, index) => (
-			<span key={index} className="skill-tag">
-				{skill}
-			</span>
-		));
-	};
+	// Duplikasi array logo untuk menciptakan efek loop yang mulus
+	const duplicatedLogos = [...INFO.skills.logos, ...INFO.skills.logos];
 
 	return (
-		<div className="skills">
-			<Card
-				icon={faCode}
-				title="Technical Skills"
-				body={
-					<div className="skills-body">
-						<div className="skill-category">
-							<strong>Languages:</strong>
-							<div className="skill-tags">
-								{renderSkills(INFO.skills.languages)}
-							</div>
+		<div className="skills-container">
+			<div className="skills-title">
+				<FontAwesomeIcon icon={faCode} />
+				Technical Skills
+			</div>
+			<div className="skills-marquee">
+				<div className="skills-track">
+					{duplicatedLogos.map((skill, index) => (
+						<div className="skill-card" key={index}>
+							<img
+								src={skill.logoUrl}
+								alt={skill.name}
+								className="skill-logo"
+							/>
+							<div className="skill-name">{skill.name}</div>
 						</div>
-						<div className="skill-category">
-							<strong>Frameworks & Libraries:</strong>
-							<div className="skill-tags">
-								{renderSkills(INFO.skills.frameworks)}
-							</div>
-						</div>
-						<div className="skill-category">
-							<strong>Database:</strong>
-							<div className="skill-tags">
-								{renderSkills(INFO.skills.database)}
-							</div>
-						</div>
-						<div className="skill-category">
-							<strong>Tools:</strong>
-							<div className="skill-tags">
-								{renderSkills(INFO.skills.tools)}
-							</div>
-						</div>
-						<div className="skill-category">
-							<strong>Design:</strong>
-							<div className="skill-tags">
-								{renderSkills(INFO.skills.design)}
-							</div>
-						</div>
-					</div>
-				}
-			/>
+					))}
+				</div>
+			</div>
 		</div>
 	);
 };

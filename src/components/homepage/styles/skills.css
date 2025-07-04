@@ -1,43 +1,96 @@
-.skills-body {
-	display: flex;
-	flex-direction: column;
-	gap: 20px; /* Menambah jarak antar kategori */
-	padding-top: 10px;
+@import "../../../data/styles.css";
+
+.skills-container {
+	padding: 40px 0;
+	overflow: hidden; /* Penting untuk menyembunyikan logo di luar area */
 }
 
-.skill-category {
-	display: flex;
-	flex-direction: column;
-}
-
-.skill-category strong {
+.skills-title {
 	font-family: var(--font-secondary);
-	font-size: 16px; /* Sedikit lebih besar */
+	font-size: 24px;
+	font-weight: 700;
 	color: var(--text-primary);
-	margin-bottom: 12px; /* Jarak lebih besar */
-	text-transform: uppercase; /* Memberi kesan tegas */
-	letter-spacing: 1px;
+	text-align: center;
+	margin-bottom: 40px;
 }
 
-.skill-tags {
+.skills-title svg {
+	margin-right: 10px;
+	color: var(--accent-primary);
+}
+
+.skills-marquee {
+	width: 100%;
+	position: relative;
 	display: flex;
-	flex-wrap: wrap;
-	gap: 10px; /* Jarak antar tag */
 }
 
-.skill-tag {
-	background-color: rgba(88, 166, 255, 0.1); /* Latar belakang biru transparan */
-	color: var(--accent-primary); /* Warna teks biru aksen */
-	padding: 6px 16px;
-	border-radius: 20px; /* Lebih bulat */
+.skills-track {
+	display: flex;
+	animation: marquee 40s linear infinite;
+	will-change: transform; /* Optimasi performa animasi */
+}
+
+.skills-marquee:hover .skills-track {
+	animation-play-state: paused; /* Jeda animasi saat di-hover */
+}
+
+@keyframes marquee {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(-50%);
+	}
+}
+
+@keyframes neon {
+	0% {
+		text-shadow: 0 0 10px #00fffb, 0 0 20px #00fffb, 0 0 30px #00fffb, 0 0 40px #00fffb, 0 0 70px #00fffb, 0 0 80px #00fffb, 0 0 100px #00fffb;
+	}
+	50% {
+		text-shadow: 0 0 5px #00fffb, 0 0 10px #00fffb, 0 0 15px #00fffb, 0 0 20px #00fffb, 0 0 35px #00fffb, 0 0 40px #00fffb, 0 0 50px #00fffb;
+	}
+}
+
+.skill-card {
+	flex-shrink: 0;
+	width: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0 20px;
+	background-color: var(--bg-secondary);
+	border-radius: 8px;
+	padding: 20px;
+	border: 1px solid var(--border-primary);
+	transition: transform 0.3s ease;
+	animation: neon 1.5s ease-in-out infinite alternate;
+}
+
+.skill-card:hover {
+	transform: scale(1.1);
+}
+
+.skill-logo {
+	height: 50px;
+	width: 50px;
+	object-fit: contain;
+	margin-bottom: 15px;
+	filter: grayscale(100%);
+	opacity: 0.7;
+	transition: filter 0.3s ease, opacity 0.3s ease;
+}
+
+.skill-card:hover .skill-logo {
+	filter: grayscale(0%);
+	opacity: 1;
+}
+
+.skill-name {
 	font-size: 14px;
 	font-weight: 600;
-	border: 1px solid var(--accent-primary);
-	transition: all 0.3s ease;
-}
-
-.skill-tag:hover {
-	background-color: var(--accent-primary); /* Latar belakang penuh saat hover */
-	color: var(--bg-primary); /* Teks menjadi gelap */
-	box-shadow: 0 0 15px rgba(88, 166, 255, 0.4);
+	color: var(--text-secondary);
+	text-align: center;
 }

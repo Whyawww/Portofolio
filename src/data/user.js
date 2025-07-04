@@ -36,11 +36,21 @@ const INFO = {
 	skills: {
 		title: "Technical Skills",
 		description: "Here are some of the technologies and tools I work with:",
-		languages: ["Python", "JavaScript", "TypeScript"],
-		frameworks: ["React.js", "Next.js", "Tailwind CSS"],
-		database: ["SQL (Basic)"],
-		tools: ["Git", "GitHub", "Jupyter Notebook", "Google Colab", "VS Code"],
-		design: ["Figma", "Canva"],
+		logos: [
+			{ name: "Python", logoUrl: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" },
+			{ name: "JavaScript", logoUrl: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png" },
+			{ name: "TypeScript", logoUrl: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png" },
+			{ name: "React.js", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" },
+			{ name: "Next.js", logoUrl: "https://cdn.worldvectorlogo.com/logos/next-js.svg" },
+			{ name: "Tailwind CSS", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" },
+			{ name: "SQL", logoUrl: "https://www.svgrepo.com/show/331760/sql-database-generic.svg" },
+			{ name: "Git", logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+			{ name: "GitHub", logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
+			{ name: "Jupyter", logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" },
+			{ name: "VS Code", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" },
+			{ name: "Figma", logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
+			{ name: "Canva", logoUrl: "https://www.svgrepo.com/show/349333/canva.svg" },
+		],
 	},
 
 	certificates: {
