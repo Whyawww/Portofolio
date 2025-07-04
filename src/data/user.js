@@ -82,7 +82,7 @@ const INFO = {
 			{
 				title: "UI/UX Design",
 				issuer: "Himatif Unsur",
-				year: "2023",
+				year: "2025",
 				achievement: "Juara 2",
 				link: "https://drive.google.com/file/d/1ELmyYHlqoUOrfM13B72kp4WcZxcq54uv/view?usp=sharing",
 			},
