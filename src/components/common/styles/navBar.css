@@ -13,26 +13,42 @@
 	align-items: center;
 	position: fixed;
 	top: 3vh;
-	width: 100%; 
-	z-index: 999;
+	width: 100%;
+	z-index: 1000;
 }
 
+/* --- Desktop Navbar --- */
 .nav-background {
-	width: auto; 
-	padding: 0 20px; 
-	height: 45px; 
+	width: auto;
+	padding: 0 20px;
+	height: 45px;
 	background: rgba(22, 27, 34, 0.8);
 	backdrop-filter: blur(10px);
-	box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
 	border: 1px solid var(--border-primary);
 	border-radius: 50px;
+	/* Efek Neon Glow */
+	box-shadow: 0 0 5px rgba(88, 166, 255, 0.5), 0 0 10px rgba(88, 166, 255, 0.3);
+	animation: pulse-neon 3s infinite alternate;
+	transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Animasi untuk efek denyut neon */
+@keyframes pulse-neon {
+	from {
+		box-shadow: 0 0 5px rgba(88, 166, 255, 0.4),
+			0 0 10px rgba(88, 166, 255, 0.2);
+	}
+	to {
+		box-shadow: 0 0 10px rgba(88, 166, 255, 0.6),
+			0 0 20px rgba(88, 166, 255, 0.4);
+	}
 }
 
 .nav-list {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 25px; 
+	gap: 25px;
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -42,47 +58,105 @@
 .nav-item {
 	font-weight: 600;
 	font-size: 14px;
-	white-space: nowrap; 
+	white-space: nowrap;
 }
 
 .nav-item.active a {
 	color: var(--accent-primary) !important;
+	text-shadow: 0 0 5px var(--accent-primary);
 }
 
 .nav-item a {
 	text-decoration: none;
 	color: var(--text-secondary);
-	transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out, text-shadow 0.2s ease-in-out;
 }
 
 .nav-item a:hover {
 	color: var(--text-primary);
+	text-shadow: 0 0 3px var(--accent-primary);
 }
 
+/* --- Mobile Menu --- */
+.nav-mobile-menu-button {
+	display: none;
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	font-size: 24px;
+	color: var(--text-primary);
+	cursor: pointer;
+	z-index: 1001;
+	background-color: var(--bg-secondary);
+	border: 1px solid var(--border-primary);
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-mobile-menu-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: var(--bg-primary);
+	z-index: 2000;
+	transform: translateX(100%);
+	transition: transform 0.3s ease-in-out;
+	display: flex;
+	flex-direction: column;
+}
+
+.nav-mobile-menu-overlay.open {
+	transform: translateX(0);
+}
+
+.nav-mobile-menu-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	border-bottom: 1px solid var(--border-primary);
+}
+
+.nav-mobile-logo .logo {
+	border: 2px solid var(--accent-primary);
+}
+
+.nav-mobile-close-button {
+	font-size: 28px;
+	color: var(--text-primary);
+	cursor: pointer;
+}
+
+.nav-mobile-links-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-grow: 1;
+}
+
+.nav-mobile-links-container .nav-list {
+	flex-direction: column;
+	gap: 30px;
+}
+
+.nav-mobile-links-container .nav-item {
+	font-size: 24px;
+	text-align: center;
+}
+
+/* --- Responsive Breakpoints --- */
 @media (max-width: 768px) {
 	.nav-background {
-		width: 90%; 
-		padding: 0 10px;
+		display: none;
 	}
 
-	.nav-list {
-		gap: 0;
-		justify-content: space-around; 
-	}
-
-	.nav-item {
-		padding: 0 8px;
-		font-size: 13px;
-	}
-}
-
-@media (max-width: 480px) {
-	.nav-background {
-		width: 95%;
-	}
-
-	.nav-item {
-		padding: 0 5px;
-		font-size: 12px; 
+	.nav-mobile-menu-button {
+		display: flex;
 	}
 }

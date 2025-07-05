@@ -14,6 +14,7 @@
 	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 	top: 4vh;
 	background-color: var(--bg-secondary);
+	z-index: 999;
 }
 
 .certificates-main-container {
@@ -112,44 +113,20 @@
 	opacity: 1;
 }
 
+/* --- Mobile Fix --- */
 @media (max-width: 768px) {
+	.certificates-logo {
+		position: static; 
+		border: none;
+		box-shadow: none;
+		background-color: transparent;
+	}
+
+	.certificates-logo-container {
+		padding-top: 0; 
+	}
+
 	.certificates-main-container {
-		padding-top: 80px;
-	}
-
-	.certificates-list {
-		grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-		gap: 15px;
-	}
-
-	.certificate-card-title {
-		font-size: 14px;
-	}
-
-	.certificate-card-issuer,
-	.certificate-card-achievement,
-	.certificate-card-view {
-		font-size: 12px;
-	}
-}
-
-@media (max-width: 480px) {
-	.certificates-main-container {
-		padding-top: 60px;
-	}
-
-	.certificates-list {
-		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-		gap: 10px;
-	}
-
-	.certificate-card-title {
-		font-size: 12px;
-	}
-
-	.certificate-card-issuer,
-	.certificate-card-achievement,
-	.certificate-card-view {
-		font-size: 10px;
+		padding-top: 20px; 
 	}
 }
