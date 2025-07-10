@@ -26,11 +26,14 @@
 }
 
 .homepage-title {
-	width: 100%;
+	font-size: 32px;
+	font-weight: 700;
+	color: var(--text-primary);
 }
 
 .homepage-subtitle {
-	width: 100%;
+	font-size: 20px;
+	color: var(--text-secondary);
 }
 
 .homepage-first-area-right-side {
@@ -132,3 +135,4 @@
 	flex-basis: 100%;
 	padding-top: 30px;
 }
+
