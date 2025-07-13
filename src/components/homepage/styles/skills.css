@@ -2,7 +2,6 @@
 
 .skills-container {
 	padding: 40px 0;
-	overflow: hidden;
 }
 
 .skills-title {
@@ -19,10 +18,42 @@
 	color: var(--accent-primary);
 }
 
-.skills-marquee {
-	width: 100%;
-	position: relative;
+.skills-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+	gap: 20px;
+}
+
+.skill-card {
 	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--bg-secondary);
+	border-radius: 8px;
+	padding: 20px;
+	border: 1px solid var(--border-primary);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	height: 120px;
+}
+
+.skill-card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 4px 20px rgba(88, 166, 255, 0.1);
+}
+
+.skill-logo {
+	height: 50px;
+	width: 50px;
+	object-fit: contain;
+	margin-bottom: 15px;
+}
+
+.skill-name {
+	font-size: 14px;
+	font-weight: 600;
+	color: var(--text-secondary);
+	text-align: center;
 }
 
 .skills-track {

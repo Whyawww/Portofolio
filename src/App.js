@@ -10,6 +10,7 @@ import Articles from "./pages/articles";
 import Certificates from "./pages/certificates";
 import Contact from "./pages/contact";
 import Notfound from "./pages/404";
+import StarsBackground from "./components/common/StarsBackground"; // Import komponen bintang
 
 import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
@@ -25,6 +26,7 @@ function App() {
 
 	return (
 		<div className="App">
+			<StarsBackground /> 
 			<AnimatePresence mode="wait">
 				<Routes location={location} key={location.pathname}>
 					<Route path="/" element={<Homepage />} />

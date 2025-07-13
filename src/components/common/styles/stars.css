@@ -1,0 +1,43 @@
+.stars-background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	z-index: -1; /* Penting: agar berada di belakang semua konten */
+}
+
+.star {
+	position: absolute;
+	width: 2px;
+	height: 2px;
+	background-color: rgba(229, 239, 255, 0.7); /* Warna bintang kebiruan */
+	border-radius: 50%;
+	box-shadow: 0 0 6px 1px rgba(131, 198, 255, 0.7); /* Efek glow */
+	animation-name: twinkle;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+@keyframes twinkle {
+	0%, 100% {
+		opacity: 0.5;
+		transform: scale(0.8);
+	}
+	50% {
+		opacity: 1;
+		transform: scale(1.2);
+	}
+}
+
+/* Opsi untuk bintang yang lebih kecil */
+.star:nth-of-type(3n) {
+	width: 1px;
+	height: 1px;
+}
+
+/* Opsi untuk bintang yang lebih terang */
+.star:nth-of-type(5n) {
+	box-shadow: 0 0 8px 2px rgba(173, 216, 230, 0.8);
+}
