@@ -48,6 +48,22 @@ function article_3() {
 	};
 }
 
-const myArticles = [article_1, article_2, article_3];
+function article_4(){
+	return {
+		date: "31 Juli 2025",
+		tittle: "Membangun Job Matcher AI, Platform Rekomendasi Karir dengan Next.js dan TypeScript",
+		description: "Dari nol hingga deployment, sebuah perjalanan dalam merancang antarmuka pengguna yang responsif, dinamis, dan terintegrasi dengan backend microservices GO.",
+		keywords: [
+			"Machine Learning",
+			"AI",
+			"Next.js",
+			"TypeScript",
+			"Web Development",
+		],
+		link: "https://medium.com/@Whyawww/membangun-job-matcher-ai-platform-rekomendasi-karir-dengan-next-js-dan-typescript-67bedba2a9aa",
+	};
+}
+
+const myArticles = [article_1, article_2, article_3, article_4];
 
 export default myArticles;
