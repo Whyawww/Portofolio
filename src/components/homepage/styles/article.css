@@ -70,13 +70,13 @@
 
 @media (max-width: 768px) {
 	.homepage-article {
-		padding: 15px;
+		padding: 0px;
 	}
 }
 
 @media (max-width: 480px) {
 	.homepage-article {
-		padding: 10px;
+		padding: 0px;
 	}
 }
 

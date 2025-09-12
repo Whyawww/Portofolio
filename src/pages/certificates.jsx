@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAward, faCertificate } from "@fortawesome/free-solid-svg-icons";
 
@@ -51,7 +51,7 @@ const Certificates = () => {
 						<div className="certificates-container">
 							<div className="certificates-section">
 								<h2 className="certificates-section-title">
-									<FontAwesomeIcon icon={faAward} /> Lomba
+									<FontAwesomeIcon icon={faAward} /> Competition
 								</h2>
 								<div className="certificates-list">
 									{INFO.certificates.competition.map(

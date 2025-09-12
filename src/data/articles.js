@@ -24,8 +24,8 @@ function article_2() {
 		keywords: [
 			"Ecommerce",
 			"React",
-			"Vite",
-			"Tailwind CSS",
+			"Online Store",
+			"Web Development",
 			"Wahyu Aji Nusantara",
 		],
 		link: "https://medium.com/@Whyawww/membangun-ecommerce-cepat-dengan-react-vite-dan-tailwind-css-4cb1358f96f6",
@@ -64,6 +64,22 @@ function article_4(){
 	};
 }
 
-const myArticles = [article_1, article_2, article_3, article_4];
+function article_5(){
+	return {
+		date: "23 Agustus 2025",
+		title: "Lebih dari Sekadar Lomba: Pelajaran Berharga dari Perjalanan Membangun Aplikasi SDGs",
+		description: "Dari Ide ke Final: Kisah di Balik Carbonify, Aplikasi Jejak Karbon Buatan Mahasiswa",
+		keywords: [
+			"Carbon",
+			"Carbonify",
+			"Next.js",
+			"Django",
+			"Web Development",
+		],
+		link: "https://medium.com/@Whyawww/lebih-dari-sekadar-lomba-pelajaran-berharga-dari-perjalanan-membangun-aplikasi-sdgs-7d75e98fccc7",
+	};
+}
+
+const myArticles = [article_1, article_2, article_3, article_4, article_5];
 
 export default myArticles;
