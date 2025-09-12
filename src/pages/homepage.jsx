@@ -1,5 +1,5 @@
 import React, { useState, useEffect, Suspense } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import { faMailBulk, faDownload } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -9,7 +9,7 @@ import {
 	faMedium,
 } from "@fortawesome/free-brands-svg-icons";
 
-import AnimatedPage from "../components/common/AnimatedPages"; // Path telah diperbaiki
+import AnimatedPage from "../components/common/AnimatedPages";
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
@@ -20,7 +20,6 @@ import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
 
-// Terapkan Lazy Loading di sini
 const Skills = React.lazy(() => import("../components/homepage/skills"));
 const AllProjects = React.lazy(() => import("../components/projects/allProjects"));
 const Works = React.lazy(() => import("../components/homepage/works"));

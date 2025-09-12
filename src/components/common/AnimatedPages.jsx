@@ -5,17 +5,17 @@ const pageVariants = {
 	initial: {
 		opacity: 0,
 		scale: 0.9,
-		y: 20, // Mulai sedikit dari bawah
+		y: 20,
 	},
 	in: {
 		opacity: 1,
 		scale: 1,
-		y: 0, // Bergerak ke posisi normal
+		y: 0,
 	},
 	out: {
 		opacity: 0,
 		scale: 0.9,
-		y: -20, // Keluar sedikit ke atas
+		y: -20,
 	},
 };
 
