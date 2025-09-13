@@ -38,30 +38,19 @@
 	width: 100%;
 }
 
-@media (max-width: 1024px) {
-	.articles-title {
-		width: 100% !important;
-	}
-
-	.articles-subtitle {
-		width: 100% !important;
-	}
-}
-
-/* --- Mobile Fix --- */
 @media (max-width: 768px) {
-	.articles-logo {
-		position: static; 
-		border: none;
-		box-shadow: none;
-		background-color: transparent;
+	.article {
+		flex-direction: column;
+		gap: 15px;
 	}
 
-	.articles-logo-container {
-		padding-top: 0; 
+	.article-date {
+		width: auto;
+		padding-top: 0;
+		font-size: 13px;
 	}
 
-	.articles-main-container {
-		padding-top: 20px;
+	.article-content {
+		padding: 4px;
 	}
 }

@@ -73,7 +73,10 @@ const Articles = () => {
 											key={(index + 1).toString()}
 											initial={{ y: 20, opacity: 0 }}
 											animate={{ y: 0, opacity: 1 }}
-											transition={{ duration: 0.3, delay: index * 0.1 }}
+											transition={{
+												duration: 0.3,
+												delay: index * 0.1,
+											}}
 										>
 											<Article
 												key={(index + 1).toString()}

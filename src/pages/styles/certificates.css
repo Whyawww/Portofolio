@@ -8,11 +8,11 @@
 
 .certificates-logo {
 	display: flex;
-	position: fixed;
+	position: sticky;
+	top: 5vh;
 	border: 1px solid var(--border-primary);
 	border-radius: 50%;
 	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-	top: 4vh;
 	background-color: var(--bg-secondary);
 	z-index: 999;
 }
@@ -32,7 +32,7 @@
 .certificates-section-title {
 	font-family: var(--font-secondary);
 	color: var(--text-primary);
-	font-size: 24px;
+	font-size: 22px;
 	font-weight: 700;
 	border-bottom: 2px solid var(--border-primary);
 	padding-bottom: 10px;
@@ -112,21 +112,29 @@
 .certificate-card:hover .certificate-card-view {
 	opacity: 1;
 }
+@media (max-width: 1024px) {
+	.certificates-section-title {
+		font-size: 22px;
+	}
+}
 
-/* --- Mobile Fix --- */
 @media (max-width: 768px) {
 	.certificates-logo {
-		position: static; 
+		position: static;
 		border: none;
 		box-shadow: none;
 		background-color: transparent;
 	}
 
+	.certificates-section-title {
+		font-size: 20px;
+	}
+
 	.certificates-logo-container {
-		padding-top: 0; 
+		padding-top: 0;
 	}
 
 	.certificates-main-container {
-		padding-top: 20px; 
+		padding-top: 20px;
 	}
 }

@@ -10,7 +10,7 @@ const INFO = {
 	socials: {
 		github: "https://github.com/Whyawww",
 		linkedin: "https://www.linkedin.com/in/wahyu-aji-nusantara",
-		instagram: "https://www.instagram.com/jiwhyn",
+		instagram: "https://www.instagram.com/jiw.codes/",
 		medium: "https://medium.com/@Whyawww",
 	},
 

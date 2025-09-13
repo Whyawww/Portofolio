@@ -24,10 +24,10 @@ const Works = () => {
 							<div className="work-text-container">
 								<div className="work-title">Suitmedia Digital Agency</div>
 								<div className="work-subtitle">
-									Frontend Developer
+									Frontend Developer (Internship)
 								</div>
 								<div className="work-duration">
-									04 August 2025 - Present
+									04 Aug 2025 - Present
 								</div>
 							</div>
 						</div>
@@ -46,7 +46,7 @@ const Works = () => {
 									Google Student Ambassador
 								</div>
 								<div className="work-duration">
-									11 September 2025 - Present
+									11 Sep 2025 - Present
 								</div>
 							</div>
 						</div>
@@ -62,10 +62,10 @@ const Works = () => {
 							<div className="work-text-container">
 								<div className="work-title">ABP Yogyakarta</div>
 								<div className="work-subtitle">
-									Volunteer Content Writer
+									Content Writer (Volunteer)
 								</div>
 								<div className="work-duration">
-									29 Mei 2025 - Present
+									29 May 2025 - Present
 								</div>
 							</div>
 						</div>
