@@ -42,7 +42,6 @@ const INFO = {
 		{ name: "TypeScript", logoUrl: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png" },
 		{ name: "React.js", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" },
 		{ name: "Next.js", logoUrl: "https://cdn.worldvectorlogo.com/logos/next-js.svg" },
-		{ name: "Vue.js", logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" },
 		{ name: "Nuxt.js", logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg" },
 		{ name: "Tailwind CSS", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" },
 		{ name: "SQL", logoUrl: "https://www.svgrepo.com/show/331760/sql-database-generic.svg" },
