@@ -21,10 +21,17 @@ import myArticles from "../data/articles";
 import "./styles/homepage.css";
 
 const Skills = React.lazy(() => import("../components/homepage/skills"));
-const AllProjects = React.lazy(() => import("../components/projects/allProjects"));
+const AllProjects = React.lazy(() =>
+	import("../components/projects/allProjects")
+);
 const Works = React.lazy(() => import("../components/homepage/works"));
 const Article = React.lazy(() => import("../components/homepage/article"));
 
+const LoadingSpinner = () => (
+	<div className="loading-container">
+		<div className="loader"></div>
+	</div>
+);
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -169,7 +176,7 @@ const Homepage = () => {
 									/>
 								</a>
 							</div>
-							
+
 							<div className="homepage-cta">
 								<a
 									href={INFO.main.cv}
@@ -181,19 +188,19 @@ const Homepage = () => {
 								</a>
 							</div>
 
-							<Suspense fallback={<div className="lazy-loader">Loading Skills...</div>}>
+							<Suspense fallback={<LoadingSpinner />}>
 								<div className="homepage-skills">
 									<Skills />
 								</div>
 							</Suspense>
 
-							<Suspense fallback={<div className="lazy-loader">Loading Projects...</div>}>
+							<Suspense fallback={<LoadingSpinner />}>
 								<div className="homepage-projects">
 									<AllProjects />
 								</div>
 							</Suspense>
 
-							<Suspense fallback={<div className="lazy-loader">Loading...</div>}>
+							<Suspense fallback={<LoadingSpinner />}>
 								<div className="homepage-after-title">
 									<div className="homepage-articles">
 										{myArticles.map((article, index) => (
@@ -205,7 +212,9 @@ const Homepage = () => {
 													key={(index + 1).toString()}
 													date={article().date}
 													title={article().title}
-													description={article().description}
+													description={
+														article().description
+													}
 													link={article().link}
 												/>
 											</div>

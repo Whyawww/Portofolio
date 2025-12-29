@@ -29,7 +29,7 @@ const Works = () => {
 									Frontend Developer (Internship)
 								</div>
 								<div className="work-duration">
-									Aug 2025 - Present
+									Aug 2025 - Dec 2025
 								</div>
 							</div>
 						</div>

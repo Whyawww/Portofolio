@@ -5,21 +5,30 @@
 	border: 1px solid var(--border-primary);
 	border-radius: 8px;
 	transition: all 0.3s ease-in-out;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
 .project a {
 	text-decoration: none;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
 .project:hover {
 	transform: translateY(-5px);
 	border-color: var(--accent-primary);
 	box-shadow: 0 4px 20px rgba(88, 166, 255, 0.1);
-	background-color: #1c222b; /* Warna latar sedikit lebih terang saat hover */
+	background-color: #1c222b;
 }
 
 .project-container {
 	padding: 20px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
 .project-logo {
@@ -41,12 +50,19 @@
 	color: var(--text-primary);
 	font-size: 16px;
 	padding-top: 10px;
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 	font-weight: 700;
 }
 
 .project-description {
 	color: var(--text-secondary);
+	flex-grow: 1;
+	margin-bottom: 15px;
+
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
 }
 
 .project-link {

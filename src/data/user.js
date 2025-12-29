@@ -15,16 +15,15 @@ const INFO = {
 	},
 
 	homepage: {
-		title:
-			"Informatics student, passionate in Data Science, Machine Learning, and Web Development.",
+		title: "Building Systems, Leading Teams, and Crafting Code to Shape the Future.",
 		description:
-			"I am an Informatics student at Universitas AMIKOM Yogyakarta. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"Informatics student at Universitas AMIKOM Yogyakarta. Combining professional web development experience with strategic leadership. Passionate about turning complex data and code into user-friendly, scalable applications. Always ready to lead, create, and innovate.",
 	},
 
 	about: {
-		title: "I'm Wahyu Aji Nusantara, I live in Indonesia, where I build the future.",
+		title: "I'm Wahyu Aji Nusantara, based in Indonesia",
 		description:
-			"I'm an Informatics student at Universitas AMIKOM Yogyakarta, passionate in Data Science, Machine Learning, and Web Development. Experienced in predictive analysis and frontend projects. I am actively building digital portfolios and open to internships or entry-level opportunities in data and software engineering.",
+			"I am an Informatics student at Universitas AMIKOM Yogyakarta who bridges the gap between complex code and strategic leadership. My journey includes professional experience as a Frontend Developer and leading tech adoption as a Google Student Ambassador. While I have a strong foundation in Web Development (Next.js), my true passion lies in Data Science and Product Management. I love solving problems using data-driven insights and creative innovation. Currently open to internships or entry-level opportunities where I can drive impact through technology.",
 	},
 
 	articles: {
@@ -37,19 +36,70 @@ const INFO = {
 		title: "Technical Skills",
 		description: "Here are some of the technologies and tools I work with:",
 		logos: [
-		{ name: "Python", logoUrl: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" },
-		{ name: "JavaScript", logoUrl: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png" },
-		{ name: "TypeScript", logoUrl: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png" },
-		{ name: "React.js", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" },
-		{ name: "Next.js", logoUrl: "https://cdn.worldvectorlogo.com/logos/next-js.svg" },
-		{ name: "Nuxt.js", logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg" },
-		{ name: "Tailwind CSS", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" },
-		{ name: "SQL", logoUrl: "https://www.svgrepo.com/show/331760/sql-database-generic.svg" },
-		{ name: "Git", logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
-		{ name: "GitHub", logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
-		{ name: "Jupyter", logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" },
-		{ name: "VS Code", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" },
-		{ name: "Figma", logoUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
+			{
+				name: "Python",
+				logoUrl:
+					"https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			},
+			{
+				name: "JavaScript",
+				logoUrl:
+					"https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			},
+			{
+				name: "TypeScript",
+				logoUrl:
+					"https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png",
+			},
+			{
+				name: "React.js",
+				logoUrl:
+					"https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+			},
+			{
+				name: "Next.js",
+				logoUrl: "https://cdn.worldvectorlogo.com/logos/next-js.svg",
+			},
+			{
+				name: "Nuxt.js",
+				logoUrl:
+					"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg",
+			},
+			{
+				name: "Tailwind CSS",
+				logoUrl:
+					"https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+			},
+			{
+				name: "SQL",
+				logoUrl:
+					"https://www.svgrepo.com/show/331760/sql-database-generic.svg",
+			},
+			{
+				name: "Git",
+				logoUrl:
+					"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+			},
+			{
+				name: "GitHub",
+				logoUrl:
+					"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+			},
+			{
+				name: "Jupyter",
+				logoUrl:
+					"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg",
+			},
+			{
+				name: "VS Code",
+				logoUrl:
+					"https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg",
+			},
+			{
+				name: "Figma",
+				logoUrl:
+					"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+			},
 		],
 	},
 

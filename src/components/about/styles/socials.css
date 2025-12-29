@@ -11,12 +11,11 @@
 }
 
 .social-icon {
-	font-size: 15px;
-	color: var(--secondary-color);
+	color: var(--text-primary);
 }
 
 .social-text {
-	color: var(--secondary-color);
+	color: #f4f4f5;
 	padding-left: 30px;
 	margin-top: -20px;
 	font-weight: 600;
@@ -33,4 +32,9 @@
 
 .email-wrapper {
 	padding-top: 20px;
+}
+
+.social-icon:hover,
+.social-text:hover {
+	color: var(--accent-primary);
 }
