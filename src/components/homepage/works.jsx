@@ -50,7 +50,7 @@ const Works = () => {
 									Google Student Ambassador
 								</div>
 								<div className="work-duration">
-									Sep 2025 - Present
+									Sep 2025 - Feb 2026
 								</div>
 							</div>
 						</div>

@@ -23,7 +23,7 @@ const INFO = {
 	about: {
 		title: "I'm Wahyu Aji Nusantara, based in Indonesia",
 		description:
-			"I am an Informatics student at Universitas AMIKOM Yogyakarta who bridges the gap between complex code and strategic leadership. My journey includes professional experience as a Frontend Developer and leading tech adoption as a Google Student Ambassador. While I have a strong foundation in Web Development (Next.js), my true passion lies in Data Science and Product Management. I love solving problems using data-driven insights and creative innovation. Currently open to internships or entry-level opportunities where I can drive impact through technology.",
+			"I am a Recent Informatics Graduate from Universitas AMIKOM Yogyakarta, where I completed my degree in just 3.5 years (7 semesters) with a GPA of 3.56. I specialize in bridging the gap between technical excellence and strategic leadership. Whether developing scalable web applications, analyzing data for strategic insights, or leading product initiatives, I am committed to driving operational excellence and impactful innovation. Currently seeking entry-level opportunities to contribute to a forward-thinking organization.",
 	},
 
 	articles: {
