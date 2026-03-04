@@ -10,30 +10,9 @@ const Works = () => {
 		<div className="works">
 			<Card
 				icon={faBriefcase}
-				title="Work Experience"
+				title="Experience"
 				body={
 					<div className="works-body">
-						<div className="work">
-							<div className="work-logo-container">
-								<img
-									src="https://konten.usu.ac.id/storage/satker/0/null/2023-Jun/PT-Suitmedia-Kreasi-Indonesia.webp"
-									alt="Suitmedia Digital Agency"
-									className="work-image"
-								/>
-							</div>
-							<div className="work-text-container">
-								<div className="work-title">
-									Suitmedia Digital Agency
-								</div>
-								<div className="work-subtitle">
-									Frontend Developer (Internship)
-								</div>
-								<div className="work-duration">
-									Aug 2025 - Dec 2025
-								</div>
-							</div>
-						</div>
-
 						<div className="work">
 							<div className="work-logo-container">
 								<img
@@ -51,6 +30,27 @@ const Works = () => {
 								</div>
 								<div className="work-duration">
 									Sep 2025 - Feb 2026
+								</div>
+							</div>
+						</div>
+
+						<div className="work">
+							<div className="work-logo-container">
+								<img
+									src="https://konten.usu.ac.id/storage/satker/0/null/2023-Jun/PT-Suitmedia-Kreasi-Indonesia.webp"
+									alt="Suitmedia Digital Agency"
+									className="work-image"
+								/>
+							</div>
+							<div className="work-text-container">
+								<div className="work-title">
+									Suitmedia Digital Agency
+								</div>
+								<div className="work-subtitle">
+									Frontend Developer (Internship)
+								</div>
+								<div className="work-duration">
+									Aug 2025 - Dec 2025
 								</div>
 							</div>
 						</div>
