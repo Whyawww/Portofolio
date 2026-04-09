@@ -17,7 +17,7 @@ import NavBar from "../components/common/navBar";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
-
+import { useTranslation } from "react-i18next";
 import "./styles/homepage.css";
 
 const Skills = React.lazy(() => import("../components/homepage/skills"));
@@ -37,6 +37,7 @@ const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
 	const [logoSize, setLogoSize] = useState(80);
 	const [oldLogoSize, setOldLogoSize] = useState(80);
+	const { t } = useTranslation();
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -103,11 +104,11 @@ const Homepage = () => {
 							<div className="homepage-first-area">
 								<div className="homepage-first-area-left-side">
 									<div className="title homepage-title">
-										{INFO.homepage.title}
+									{t('user.homepage.title')}
 									</div>
 
 									<div className="subtitle homepage-subtitle">
-										{INFO.homepage.description}
+										{t('user.homepage.description')}
 									</div>
 								</div>
 
@@ -184,7 +185,7 @@ const Homepage = () => {
 									className="cta-button"
 								>
 									<FontAwesomeIcon icon={faDownload} />
-									&nbsp; Download Resume
+									&nbsp; {t('homepage.download_cv')}
 								</a>
 							</div>
 

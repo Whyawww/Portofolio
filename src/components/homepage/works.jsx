@@ -1,16 +1,17 @@
 import React from "react";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
-
+import { useTranslation } from "react-i18next";
 import Card from "../common/card";
 
 import "./styles/works.css";
 
 const Works = () => {
+	const { t } = useTranslation();
 	return (
 		<div className="works">
 			<Card
 				icon={faBriefcase}
-				title="Experience"
+				title={t('works.title')}
 				body={
 					<div className="works-body">
 						<div className="work">

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAward, faCertificate } from "@fortawesome/free-solid-svg-icons";
-
+import { useTranslation } from "react-i18next";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
@@ -13,6 +13,7 @@ import SEO from "../data/seo";
 import "./styles/certificates.css";
 
 const Certificates = () => {
+	const { t } = useTranslation();
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -23,7 +24,7 @@ const Certificates = () => {
 		<React.Fragment>
 			<Helmet>
 				<title>{`Certificates | ${INFO.main.title}`}</title>
-				<meta name="description" content={currentSEO.description} />
+				<meta name="description" content={t('seo.certificates')} />
 				<meta
 					name="keywords"
 					content={currentSEO.keywords.join(", ")}
@@ -41,17 +42,17 @@ const Certificates = () => {
 
 					<div className="certificates-main-container">
 						<div className="title certificates-title">
-							{INFO.certificates.title}
+						{t('user.certificates.title')}
 						</div>
 
 						<div className="subtitle certificates-subtitle">
-							{INFO.certificates.description}
+							{t('user.certificates.description')}
 						</div>
 
 						<div className="certificates-container">
 							<div className="certificates-section">
 								<h2 className="certificates-section-title">
-									<FontAwesomeIcon icon={faAward} /> Competition
+									<FontAwesomeIcon icon={faAward} /> Kompetisi
 								</h2>
 								<div className="certificates-list">
 									{INFO.certificates.competition.map(
@@ -74,7 +75,7 @@ const Certificates = () => {
 														{cert.achievement}
 													</div>
 													<div className="certificate-card-view">
-														Lihat Sertifikat
+													{t('certificates_component.view')}
 													</div>
 												</div>
 											</a>
@@ -106,7 +107,7 @@ const Certificates = () => {
 														{cert.issuer}
 													</div>
 													<div className="certificate-card-view">
-														Lihat Sertifikat
+													{t('certificates_component.view')}
 													</div>
 												</div>
 											</a>

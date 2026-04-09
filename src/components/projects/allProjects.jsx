@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Project from "./project";
 import INFO from "../../data/user";
 import "./styles/allProjects.css";
+import { useTranslation } from "react-i18next";
 
 const containerVariants = {
 	hidden: { opacity: 0 },
@@ -27,6 +28,7 @@ const itemVariants = {
 };
 
 const AllProjects = () => {
+	const { t } = useTranslation();
 	return (
 		<motion.div
 			className="all-projects-container"
@@ -45,7 +47,7 @@ const AllProjects = () => {
 						logo={project.logo}
 						title={project.title}
 						description={project.description}
-						linkText={project.linkText}
+						linkText={t('page_projects.view_project')}
 						link={project.link}
 					/>
 				</motion.div>

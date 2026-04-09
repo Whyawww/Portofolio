@@ -1,0 +1,87 @@
+{
+    "homepage": {
+      "download_cv": "Download Resume"
+    },
+    "works": {
+      "title": "Experience"
+    },
+    "skills": {
+      "title": "Technical Skills"
+    },
+    "user": {
+    "homepage": {
+      "title": "Building Systems, Leading Teams, and Crafting Code to Shape the Future.",
+      "description": "Informatics student at Universitas AMIKOM Yogyakarta. Combining professional web development experience with strategic leadership. Passionate about turning complex data and code into user-friendly, scalable applications. Always ready to lead, create, and innovate."
+    },
+    "about": {
+      "title": "I'm Wahyu Aji Nusantara, based in Indonesia",
+      "description": "I am a Recent Informatics Graduate from Universitas AMIKOM Yogyakarta, where I completed my degree in just 3.5 years (7 semesters) with a GPA of 3.56. I specialize in bridging the gap between technical excellence and strategic leadership. Whether developing scalable web applications, analyzing data for strategic insights, or leading product initiatives, I am committed to driving operational excellence and impactful innovation. Currently seeking entry-level opportunities to contribute to a forward-thinking organization."
+    },
+    "articles": {
+      "title": "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+      "description": "Chronological collection of my long-form thoughts on programming, leadership, product design, and more."
+    },
+    "skills": {
+      "title": "Technical Skills",
+      "description": "Here are some of the technologies and tools I work with:"
+    },
+    "certificates": {
+      "title": "Awards, Certifications, and Achievements.",
+      "description": "Here are some of the certifications and awards I have received in recognition of my skills and dedication."
+    },
+    "projects": {
+      "dynamicbuzz": "KOL Analyzer is an internal tool powered by Machine Learning to evaluate and provide KOL recommendations. It uses React & TailwindCSS for frontend, FastAPI (Python) for backend, and Scikit-learn model for prediction.",
+      "jobmatcher": "A full-stack web platform that uses AI to analyze user CVs and provide the most relevant job recommendations. Built with Next.js for the frontend and Go (Golang) microservices for the backend.",
+      "onlinestore": "A simple online store application based on React.js and Tailwind CSS to showcase IQOO smartphone products and accessories. Features dynamic product listing, interactive product details, shopping cart, search, intuitive navigation using React Router, and animation with AOS. Responsive and modern design.",
+      "audiensyoutube": "This project will use and compare two popular clustering methods, namely K-Means and DBSCAN, to see which method provides the most logical and accurate clustering results."
+    }
+  },
+  "articles": {
+    "1": "This project will use and compare two popular clustering methods, namely K-Means and DBSCAN, to see which method provides the most logical and accurate clustering results.",
+    "2": "Dissecting the E-commerce Creation Process with Dynamic Shopping Cart Features Using React Hooks.",
+    "3": "How an application focused on ordering catering and snacks in large quantities successfully became a real solution for MSMEs, while also leading me to win an award in a design competition.",
+    "4": "From zero to deployment, a journey in designing a responsive, dynamic user interface integrated with a GO microservices backend.",
+    "5": "From Idea to Final: The Story Behind Carbonify, a Student-Made Carbon Footprint App"
+  },
+  "seo": {
+    "home_about": "I am a frontend developer with expertise in React, Next.js, and Tailwind CSS. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
+    "articles": "Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+    "certificates": "A collection of my certifications and awards, showcasing my skills and achievements.",
+    "projects": "I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to.",
+    "contact": "If you're interested in collaborating on a project, feel free to reach out to me. I'm always open to new ideas and opportunities."
+  },
+  "socials": {
+  "github": "Follow on GitHub",
+  "linkedin": "Follow on LinkedIn",
+  "instagram": "Follow on Instagram",
+  "medium": "Follow on Medium"
+},
+"page_projects": {
+  "title": "Bringing Data to Life Through Code.",
+  "subtitle": "Here you will find a selection of my work, from data analysis scripts to fully functional web applications. I'm passionate about solving problems and turning ideas into tangible products. Most of these projects are open-source, so feel free to explore the code on GitHub. I'm always open to new ideas and collaboration.",
+  "view_project": "View Project"
+},
+"article_component": {
+  "read_more": "Read Article"
+},
+  "certificates_component": {
+    "view": "View Certificate"
+},
+"contact": {
+  "title": "Let's Get in Touch: Ways to Connect with Me",
+  "subtitle_1": "Thank you for your interest in getting in touch with me. I welcome your feedback, questions, and suggestions. If you have a specific question or comment, please feel free to email me directly at",
+  "subtitle_2": ". I make an effort to respond to all messages within 24 hours, although it may take me longer during busy periods. If you prefer to connect on social media, you can find me on ",
+  "subtitle_3": ". I post regular updates and engage with my followers there, so don't hesitate to reach out. Thanks again for your interest, and I look forward to hearing from you!"
+},
+"nav": {
+  "home": "Home",
+  "about": "About",
+  "projects": "Projects",
+  "articles": "Articles",
+  "certificates": "Certificates",
+  "contact": "Contact"
+},
+"footer": {
+  "credits": "© 2025 Wahyu Aji Nusantara. All Rights Reserved."
+}
+}

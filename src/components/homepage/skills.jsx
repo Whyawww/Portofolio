@@ -3,15 +3,17 @@ import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import INFO from "../../data/user";
 import "./styles/skills.css";
+import { useTranslation } from "react-i18next";
 
 const Skills = () => {
 	const duplicatedLogos = [...INFO.skills.logos, ...INFO.skills.logos];
+	const { t } = useTranslation();
 
 	return (
 		<div className="skills-container">
 			<div className="skills-title">
 				<FontAwesomeIcon icon={faCode} />
-				Technical Skills
+				{t('skills.title')}
 			</div>
 			<div className="skills-marquee">
 				<div className="skills-track">

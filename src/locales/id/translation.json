@@ -1,0 +1,87 @@
+{
+    "homepage": {
+      "download_cv": "Unduh CV"
+    },
+    "works": {
+      "title": "Pengalaman"
+    },
+    "skills": {
+      "title": "Keahlian Teknis"
+    },
+    "user": {
+    "homepage": {
+      "title": "Membangun Sistem, Memimpin Tim, dan Meracik Kode untuk Membentuk Masa Depan.",
+      "description": "Mahasiswa Informatika di Universitas AMIKOM Yogyakarta. Memadukan pengalaman pengembangan web profesional dengan kepemimpinan strategis. Bersemangat dalam mengubah data dan kode yang kompleks menjadi aplikasi yang mudah digunakan dan dapat diskalakan. Selalu siap memimpin, berkreasi, dan berinovasi."
+    },
+    "about": {
+      "title": "Saya Wahyu Aji Nusantara, berdomisili di Indonesia",
+      "description": "Saya adalah Lulusan Baru Informatika dari Universitas AMIKOM Yogyakarta, menyelesaikan gelar sarjana hanya dalam 3,5 tahun (7 semester) dengan IPK 3.56. Saya berfokus dalam menjembatani keunggulan teknis dengan kepemimpinan strategis. Baik dalam mengembangkan aplikasi web yang skalabel, menganalisis data untuk wawasan strategis, maupun memimpin inisiatif produk, saya berkomitmen untuk mendorong keunggulan operasional dan inovasi yang berdampak. Saat ini sedang mencari peluang tingkat awal (entry-level) untuk berkontribusi pada perusahaan yang visioner."
+    },
+    "articles": {
+      "title": "Saya bersemangat untuk mendorong batasan dari apa yang mungkin dan menginspirasi generasi inovator berikutnya.",
+      "description": "Koleksi kronologis dari pemikiran mendalam saya tentang pemrograman, kepemimpinan, desain produk, dan lainnya."
+    },
+    "skills": {
+      "title": "Keahlian Teknis",
+      "description": "Berikut adalah beberapa teknologi dan alat yang saya gunakan:"
+    },
+    "certificates": {
+      "title": "Penghargaan, Sertifikasi, dan Pencapaian.",
+      "description": "Berikut adalah beberapa sertifikasi dan penghargaan yang saya terima sebagai bentuk pengakuan atas keterampilan dan dedikasi saya."
+    },
+    "projects": {
+      "dynamicbuzz": "KOL Analyzer adalah alat internal yang didukung oleh Machine Learning untuk mengevaluasi dan memberikan rekomendasi KOL. Menggunakan React & TailwindCSS untuk frontend, FastAPI (Python) untuk backend, dan model Scikit-learn untuk prediksi.",
+      "jobmatcher": "Platform web full-stack yang menggunakan AI untuk menganalisis CV pengguna dan memberikan rekomendasi pekerjaan yang paling relevan. Dibangun dengan Next.js untuk frontend dan microservices Go (Golang) untuk backend.",
+      "onlinestore": "Aplikasi toko online sederhana berbasis React.js dan Tailwind CSS untuk memamerkan produk dan aksesori smartphone IQOO. Menampilkan daftar produk dinamis, detail produk interaktif, keranjang belanja, pencarian, navigasi intuitif menggunakan React Router, dan animasi dengan AOS. Desain responsif dan modern.",
+      "audiensyoutube": "Proyek ini akan menggunakan dan membandingkan dua metode clustering populer, yaitu K-Means dan DBSCAN, untuk melihat metode mana yang memberikan hasil clustering paling logis dan akurat."
+    }
+  },
+  "articles": {
+    "1": "Proyek ini akan menggunakan dan membandingkan dua metode clustering populer, yaitu K-Means dan DBSCAN, untuk melihat metode mana yang memberikan hasil clustering paling logis dan akurat.",
+    "2": "Membedah Proses Pembuatan E-commerce dengan Fitur Keranjang Belanja Dinamis Menggunakan React Hooks.",
+    "3": "Bagaimana sebuah aplikasi yang berfokus pada pemesanan katering dan snack dalam jumlah besar berhasil menjadi solusi nyata bagi UMKM, sekaligus mengantarkan saya meraih penghargaan dalam kompetisi desain.",
+    "4": "Dari nol hingga deployment, sebuah perjalanan dalam merancang antarmuka pengguna yang responsif, dinamis, dan terintegrasi dengan backend microservices GO.",
+    "5": "Dari Ide ke Final: Kisah di Balik Carbonify, Aplikasi Jejak Karbon Buatan Mahasiswa"
+  },
+  "seo": {
+    "home_about": "Saya adalah pengembang backend dengan keahlian di Node.js. Saya memiliki pengalaman dalam membangun aplikasi web yang dapat diskalakan, aman, dan andal menggunakan berbagai kerangka kerja dan teknologi.",
+    "articles": "Koleksi kronologis dari pemikiran mendalam saya tentang pemrograman, kepemimpinan, desain produk, dan lainnya.",
+    "certificates": "Koleksi sertifikasi dan penghargaan saya, yang menunjukkan keterampilan dan pencapaian saya.",
+    "projects": "Saya telah mengerjakan berbagai proyek selama bertahun-tahun dan saya bangga dengan kemajuan yang telah saya capai. Banyak dari proyek ini bersifat open-source dan tersedia untuk dieksplorasi dan dikontribusikan oleh orang lain.",
+    "contact": "Jika Anda tertarik untuk berkolaborasi dalam sebuah proyek, jangan ragu untuk menghubungi saya. Saya selalu terbuka terhadap ide dan peluang baru."
+  },
+  "socials": {
+  "github": "Ikuti di GitHub",
+  "linkedin": "Ikuti di LinkedIn",
+  "instagram": "Ikuti di Instagram",
+  "medium": "Ikuti di Medium"
+},
+"page_projects": {
+  "title": "Menghidupkan Data Melalui Kode.",
+  "subtitle": "Di sini Anda akan menemukan pilihan karya saya, mulai dari skrip analisis data hingga aplikasi web yang berfungsi penuh. Saya sangat antusias dalam memecahkan masalah dan mengubah ide menjadi produk nyata. Sebagian besar proyek ini bersifat open-source, jadi jangan ragu untuk menjelajahi kodenya di GitHub. Saya selalu terbuka terhadap ide dan kolaborasi baru.",
+  "view_project": "Lihat Proyek"
+},
+"article_component": {
+  "read_more": "Baca Artikel"
+},
+"certificates_component": {
+  "view": "Lihat Sertifikat"
+},
+"contact": {
+  "title": "Mari Terhubung: Cara Menghubungi Saya",
+  "subtitle_1": "Terima kasih atas ketertarikan Anda untuk menghubungi saya. Saya menyambut baik segala umpan balik, pertanyaan, dan saran. Jika Anda memiliki pertanyaan atau komentar spesifik, jangan ragu untuk mengirim email langsung kepada saya di",
+  "subtitle_2": ". Saya berusaha merespons semua pesan dalam waktu 24 jam, meskipun mungkin membutuhkan waktu lebih lama di saat sibuk. Jika Anda lebih suka terhubung melalui media sosial, Anda dapat menemukan saya di ",
+  "subtitle_3": ". Saya memposting pembaruan rutin dan berinteraksi dengan pengikut saya di sana, jadi jangan ragu untuk menyapa. Terima kasih kembali atas ketertarikan Anda, dan saya menantikan kabar dari Anda!"
+},
+"nav": {
+  "home": "Beranda",
+  "about": "Tentang",
+  "projects": "Proyek",
+  "articles": "Artikel",
+  "certificates": "Sertifikat",
+  "contact": "Kontak"
+},
+"footer": {
+  "credits": "© 2025 Wahyu Aji Nusantara. Hak Cipta Dilindungi."
+}
+}

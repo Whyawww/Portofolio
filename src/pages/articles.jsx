@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
-
+import { useTranslation } from "react-i18next";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
@@ -14,6 +14,7 @@ import myArticles from "../data/articles";
 import "./styles/articles.css";
 
 const Articles = () => {
+	const { t } = useTranslation();
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -53,7 +54,7 @@ const Articles = () => {
 								animate={{ x: 0, opacity: 1 }}
 								transition={{ duration: 0.5 }}
 							>
-								{INFO.articles.title}
+								{t('user.articles.title')}
 							</motion.div>
 
 							<motion.div
@@ -62,7 +63,7 @@ const Articles = () => {
 								animate={{ x: 0, opacity: 1 }}
 								transition={{ duration: 0.5, delay: 0.2 }}
 							>
-								{INFO.articles.description}
+								{t('user.articles.description')}
 							</motion.div>
 
 							<div className="articles-container">

@@ -7,12 +7,13 @@ import {
 	faInstagram,
 	faMedium,
 } from "@fortawesome/free-brands-svg-icons";
-
+import { useTranslation } from "react-i18next";
 import INFO from "../../data/user";
 
 import "./styles/socials.css";
 
 const Socials = () => {
+	const { t } = useTranslation();
 	return (
 		<div className="socials">
 			<div className="social">
@@ -23,7 +24,7 @@ const Socials = () => {
 							className="social-icon"
 						/>
 					</div>
-					<div className="social-text">Follow on GitHub</div>
+					<div className="social-text">{t('socials.github')}</div>
 				</a>
 			</div>
 
@@ -39,7 +40,7 @@ const Socials = () => {
 							className="social-icon"
 						/>
 					</div>
-					<div className="social-text">Follow on LinkedIn</div>
+					<div className="social-text">{t('socials.linkedin')}</div>
 				</a>
 			</div>
 
@@ -55,7 +56,7 @@ const Socials = () => {
 							className="social-icon"
 						/>
 					</div>
-					<div className="social-text">Follow on Instagram</div>
+					<div className="social-text">{t('socials.instagram')}</div>
 				</a>
 			</div>
 
@@ -67,7 +68,7 @@ const Socials = () => {
 							className="social-icon"
 						/>
 					</div>
-					<div className="social-text">Follow on Medium</div>
+					<div className="social-text">{t('socials.medium')}</div>
 				</a>
 			</div>
 

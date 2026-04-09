@@ -26,13 +26,11 @@
 	backdrop-filter: blur(10px);
 	border: 1px solid var(--border-primary);
 	border-radius: 50px;
-	/* Efek Neon Glow */
 	box-shadow: 0 0 5px rgba(88, 166, 255, 0.5), 0 0 10px rgba(88, 166, 255, 0.3);
 	animation: pulse-neon 3s infinite alternate;
 	transition: box-shadow 0.3s ease-in-out;
 }
 
-/* Animasi untuk efek denyut neon */
 @keyframes pulse-neon {
 	from {
 		box-shadow: 0 0 5px rgba(88, 166, 255, 0.4),
@@ -75,6 +73,125 @@
 .nav-item a:hover {
 	color: var(--text-primary);
 	text-shadow: 0 0 3px var(--accent-primary);
+}
+
+/* --- Language Toggle Shared --- */
+.lang-toggle-wrapper {
+	display: flex;
+	align-items: center;
+	margin-left: 10px;
+}
+
+.lang-toggle-perspective {
+	perspective: 600px;
+	cursor: pointer;
+}
+
+.lang-toggle-inner {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 6px 12px;
+	background: rgba(255, 255, 255, 0.04);
+	border: 1px solid var(--border-primary);
+	border-radius: 20px;
+	user-select: none;
+	transition: border-color 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lang-toggle-inner:hover {
+	border-color: var(--accent-primary);
+	background: rgba(88, 166, 255, 0.06);
+	box-shadow: 0 0 8px rgba(88, 166, 255, 0.25);
+}
+
+/* 3D Flip animation */
+.lang-toggle-inner.flipping {
+	animation: flip-3d 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes flip-3d {
+	0%   { transform: rotateY(0deg); }
+	45%  { transform: rotateY(90deg); box-shadow: 0 0 20px rgba(88, 166, 255, 0.6), 0 0 40px rgba(88, 166, 255, 0.2); }
+	55%  { transform: rotateY(90deg); }
+	100% { transform: rotateY(0deg); box-shadow: 0 0 8px rgba(88, 166, 255, 0.3); }
+}
+
+.lang-flag {
+	font-size: 16px;
+	line-height: 1;
+	display: inline-block;
+}
+
+.lang-divider-line {
+	display: inline-block;
+	width: 1px;
+	height: 13px;
+	background: var(--border-primary);
+	opacity: 0.6;
+}
+
+.lang-code {
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	transition: color 0.25s ease, text-shadow 0.25s ease;
+}
+
+.lang-id {
+	color: #ff5252;
+	text-shadow: 0 0 6px rgba(255, 82, 82, 0.5);
+}
+
+.lang-en {
+	color: var(--accent-primary);
+	text-shadow: 0 0 6px rgba(88, 166, 255, 0.5);
+}
+
+/* --- Floating Lang Toggle (Mobile Only) --- */
+.lang-toggle-mobile-float {
+	display: none;
+	position: fixed;
+	bottom: 28px;
+	left: 20px;
+	z-index: 999;
+	perspective: 600px;
+	cursor: pointer;
+	animation: float-bob 3s ease-in-out infinite;
+}
+
+/* Floating bob animation*/
+@keyframes float-bob {
+	0%, 100% { transform: translateY(0px); }
+	50%       { transform: translateY(-5px); }
+}
+
+/* Glow pulse floating button */
+.lang-toggle-mobile-float .lang-toggle-inner {
+	background: rgba(22, 27, 34, 0.85);
+	backdrop-filter: blur(10px);
+	border: 1px solid rgba(88, 166, 255, 0.35);
+	box-shadow: 0 0 8px rgba(88, 166, 255, 0.3), 0 4px 16px rgba(0, 0, 0, 0.4);
+	animation: float-glow 3s ease-in-out infinite alternate;
+	padding: 8px 14px;
+}
+
+@keyframes float-glow {
+	from { box-shadow: 0 0 6px rgba(88, 166, 255, 0.3), 0 4px 16px rgba(0, 0, 0, 0.4); }
+	to   { box-shadow: 0 0 14px rgba(88, 166, 255, 0.55), 0 4px 20px rgba(0, 0, 0, 0.5); }
+}
+
+.lang-toggle-mobile-float .lang-toggle-inner:hover {
+	border-color: var(--accent-primary);
+	box-shadow: 0 0 18px rgba(88, 166, 255, 0.7), 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.lang-toggle-mobile-float .lang-flag {
+	font-size: 18px;
+}
+
+.lang-toggle-mobile-float .lang-code {
+	font-size: 13px;
 }
 
 /* --- Mobile Menu --- */
@@ -158,5 +275,13 @@
 
 	.nav-mobile-menu-button {
 		display: flex;
+	}
+
+	.nav-item.lang-toggle-wrapper {
+		display: none;
+	}
+
+	.lang-toggle-mobile-float {
+		display: block;
 	}
 }

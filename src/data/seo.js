@@ -2,14 +2,14 @@ const SEO = [
 	{
 		page: "home",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
+			"I am a frontend developer with expertise in React and Next.js, and Tailwind CSS. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
 		keywords: ["Wahyu", "Wahyu Aji", "Wahyu Aji Nusantara"],
 	},
 
 	{
 		page: "about",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
+			"I am a frontend developer with expertise in React, Next.js, and Tailwind CSS. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
 		keywords: ["Wahyu", "Wahyu Aji", "Wahyu Aji Nusantara"],
 	},
 

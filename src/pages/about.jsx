@@ -5,13 +5,14 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
-
+import { useTranslation } from "react-i18next"; 
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/about.css";
 
 const About = () => {
+	const { t } = useTranslation();
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -43,11 +44,11 @@ const About = () => {
 							<div className="about-main">
 								<div className="about-right-side">
 									<div className="title about-title">
-										{INFO.about.title}
+										{t('user.about.title')}
 									</div>
 
 									<div className="subtitle about-subtitle">
-										{INFO.about.description}
+										{t('user.about.description')}
 									</div>
 								</div>
 
