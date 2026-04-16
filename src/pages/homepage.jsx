@@ -37,7 +37,7 @@ const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
 	const [logoSize, setLogoSize] = useState(80);
 	const [oldLogoSize, setOldLogoSize] = useState(80);
-	const { t } = useTranslation();
+	const { t, i18n } = useTranslation();
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -180,8 +180,8 @@ const Homepage = () => {
 
 							<div className="homepage-cta">
 								<a
-									href={INFO.main.cv}
-									download="CV-WahyuAjiNusantara.pdf"
+									href={i18n.language === 'id' ? "/CV-WahyuAjiNusantara-ID.pdf" : "/CV-WahyuAjiNusantara-EN.pdf"}
+									download={i18n.language === 'id' ? "CV-WahyuAjiNusantara-ID.pdf" : "CV-WahyuAjiNusantara-EN.pdf"}
 									className="cta-button"
 								>
 									<FontAwesomeIcon icon={faDownload} />
