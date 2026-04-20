@@ -180,12 +180,24 @@ const Homepage = () => {
 
 							<div className="homepage-cta">
 								<a
-									href={i18n.language === 'id' ? "/CV-WahyuAjiNusantara-ID.pdf" : "/CV-WahyuAjiNusantara-EN.pdf"}
-									download={i18n.language === 'id' ? "CV-WahyuAjiNusantara-ID.pdf" : "CV-WahyuAjiNusantara-EN.pdf"}
+									href={
+										i18n.language === "id"
+											? "/CV-WahyuAjiNusantara-ID.pdf"
+											: i18n.language === "sd"
+											? "/CV-WahyuAjiNusantara-SD.pdf"
+											: "/CV-WahyuAjiNusantara-EN.pdf"
+									}
+									download={
+										i18n.language === "id"
+											? "CV-WahyuAjiNusantara-ID.pdf"
+											: i18n.language === "sd"
+											? "CV-WahyuAjiNusantara-SD.pdf"
+											: "CV-WahyuAjiNusantara-EN.pdf"
+									}
 									className="cta-button"
 								>
 									<FontAwesomeIcon icon={faDownload} />
-									&nbsp; {t('homepage.download_cv')}
+									&nbsp; {t("homepage.download_cv")}
 								</a>
 							</div>
 

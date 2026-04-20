@@ -1,0 +1,87 @@
+{
+    "homepage": {
+      "download_cv": "Candak CV"
+    },
+    "works": {
+      "title": "Pangalaman"
+    },
+    "skills": {
+      "title": "Kaahlian Téhnis"
+    },
+    "user": {
+    "homepage": {
+      "title": "Ngawangun Sistem, Mingpin Tim, sareng Nulis Kode pikeun ngawangun jaman kapayunna.",
+      "description": "Mahasiswa Informatika di Universitas AMIKOM Yogyakarta. Ngahijikeun pangalaman pamekaran wéb profésional sareng kapamingpinan strategis. Gumbira ngeunaan transformasi data sareng kode anu pajeulit janten aplikasi anu saé pangguna sareng tiasa diskalakeun. Salawasna siap mingpin, nyiptakeun, sareng ngainovasi."
+    },
+    "about": {
+      "title": "Abdi Wahyu Aji Nusantara, domisili di Indonesia",
+      "description": "Abdi lulusan Informatika ti Universitas AMIKOM Yogyakarta, ngaréngsékeun gelar sarjana ngan ukur dina 3,5 taun (7 semester) kalayan IPK 3,56. Abdi fokus kana ngahijikeun kaunggulan téhnis sareng kapamingpinan strategis. Naha ngembangkeun aplikasi wéb anu tiasa diskalakeun, nganalisis data pikeun wawasan strategis, atanapi mingpin inisiatif produk, abdi komitmen pikeun ngadorong kaunggulan operasional sareng inovasi anu mangaruhan. Ayeuna milarian kasempetan tingkat mimiti pikeun nyumbang kana perusahaan visioner."
+    },
+    "articles": {
+      "title": "Abdi sumanget ngadorong wates-wates naon anu mungkin sareng masihan ilham ka generasi inovator salajengna.",
+      "description": "Kempeulan kronologis pamikiran kuring anu jero ngeunaan pamrograman, kapamingpinan, desain produk, sareng seueur deui."
+    },
+    "skills": {
+      "title": "Kaahlian Téhnis",
+      "description": "Ieu sababaraha téknologi sareng alat anu kuring anggo:"
+    },
+    "certificates": {
+      "title": "Panghargaan, Sertifikasi, sareng Pancapaian.",
+      "description": "Di handap ieu aya sababaraha sertifikasi sareng panghargaan anu kuring tampi pikeun pangakuan kana kamampuan sareng dedikasi kuring."
+    },
+    "projects": {
+      "dynamicbuzz": "KOL Analyzer nyaéta alat internal anu didukung ku Machine Learning pikeun meunteun sareng masihan rekomendasi pikeun KOL. Nganggo React & TailwindCSS pikeun frontend, FastAPI (Python) pikeun backend, sareng modél Scikit-learn pikeun prediksi..",
+      "jobmatcher": "Platform wéb full-stack anu nganggo AI pikeun nganalisis CV pangguna sareng nyayogikeun rekomendasi padamelan anu paling relevan. Diwangun nganggo Next.js pikeun frontend sareng microservices Go (Golang) pikeun backend.",
+      "onlinestore": "Aplikasi toko online basajan dumasar kana React.js sareng Tailwind CSS pikeun nampilkeun produk sareng asesoris smartphone IQOO. Éta nampilkeun daptar produk dinamis, detil produk interaktif, karanjang balanja, pamilarian, navigasi intuitif nganggo React Router, sareng animasi nganggo AOS. Desainna responsif sareng modéren.",
+      "audiensyoutube": "Proyék ieu bakal ngagunakeun sareng ngabandingkeun dua metode klaster anu populér, nyaéta K-Means sareng DBSCAN, pikeun ningali metode mana anu nyayogikeun hasil klaster anu paling logis sareng akurat."
+    }
+  },
+  "articles": {
+    "1": "Proyék ieu bakal ngagunakeun sareng ngabandingkeun dua metode klaster anu populér, nyaéta K-Means sareng DBSCAN, pikeun ningali metode mana anu nyayogikeun hasil klaster anu paling logis sareng akurat.",
+    "2": "Ngabedah Prosés Nyieun E-commerce Nganggo Fitur Karanjang Balanja Dinamis Nganggo React Hooks.",
+    "3": "Kumaha hiji aplikasi anu fokus kana mesen katering sareng jajanan dina jumlah ageung hasil janten solusi nyata pikeun UMKM, bari ogé ngarahkeun kuring meunang panghargaan dina kompetisi desain.",
+    "4": "Ti mimiti nepi ka tiasa dianggo, hiji lalampahan dina ngarancang panampilan pamaké anu responsif jeung dinamis anu terintegrasi jeung backend microservices GO.",
+    "5": "Ti Ide ka Final: Carita di Balik Carbonify, Aplikasi Pelacak Jejak Karbon Anu Didamel ku Mahasiswa"
+  },
+  "seo": {
+    "home_about": "Abdi pamekar backend anu ahli dina Node.js. Abdi gaduh pangalaman ngawangun aplikasi wéb anu tiasa diskalakeun, aman, sareng tiasa dipercaya nganggo rupa-rupa kerangka kerja sareng téknologi.",
+    "articles": "Kumpulan kronologis pamikiran kuring anu jero ngeunaan pamrograman, kapamingpinan, desain produk, sareng seueur deui.",
+    "certificates": "Kumpulan sertifikasi sareng panghargaan kuring, anu nunjukkeun kamampuan sareng prestasi kuring.",
+    "projects": "Kuring geus ngagarap rupa-rupa proyék salami mangtaun-taun sarta reueus kana kamajuan anu geus kuring jieun. Seueur proyék ieu mangrupa sumber terbuka sarta sayogi pikeun anu séjén pikeun dijajal sarta dikontribusikeun.",
+    "contact": "Upami anjeun resep kolaborasi dina hiji proyék, teu kedah ragu ngahubungi abdi. Abdi salawasna kabuka kana ide sareng kasempetan énggal."
+  },
+  "socials": {
+  "github": "Tuturkeun di GitHub",
+  "linkedin": "Tuturkeun di LinkedIn",
+  "instagram": "Tuturkeun di Instagram",
+  "medium": "Tuturkeun di Medium"
+},
+"page_projects": {
+  "title": "Ngahirupkeun Data dina Kode.",
+  "subtitle": "Di dieu anjeun bakal mendakan sababaraha karya kuring, ti mimiti skrip analisis data dugi ka aplikasi wéb anu fungsina pinuh. Kuring resep pisan ngaréngsékeun masalah sareng ngarobah ide janten produk nyata. Kaseueuran proyék ieu sumberna terbuka, janten mangga ngajalajah kode dina GitHub. Kuring salawasna kabuka kana ide sareng kolaborasi énggal.",
+  "view_project": "Ninggali Proyek"
+},
+"article_component": {
+  "read_more": "Waca Artikel"
+},
+"certificates_component": {
+  "view": "Ninggali Sértifikat"
+},
+"contact": {
+  "title": "Hayu Urang Kenalan: Kumaha Ngahubungi Abdi",
+  "subtitle_1": "Hatur nuhun kana minat anjeun ngahubungi abdi. Abdi nampi sagala masukan, patarosan, sareng saran. Upami anjeun gaduh patarosan atanapi koméntar khusus, mangga kirim email langsung ka abdi di",
+  "subtitle_2": ". Abdi usahakeun ngawaler sadaya pesen dina 24 jam, sanaos tiasa langkung lami nalika waktos sibuk. Upami anjeun langkung milih nyambung ngalangkungan média sosial, anjeun tiasa mendakan abdi di ",
+  "subtitle_3": ". Abdi rutin apdet sareng berinteraksi sareng pengikut abdi di dinya, janten mangga ngucap salam. Hatur nuhun deui kanggo minat anjeun, sareng abdi ngarepkeun ngadangu ti anjeun!"
+},
+"nav": {
+  "home": "Beranda",
+  "about": "Ngeunaan",
+  "projects": "Proyék",
+  "articles": "Artikel",
+  "certificates": "Sertifikat",
+  "contact": "Konték"
+},
+"footer": {
+  "credits": "© 2025 Wahyu Aji Nusantara. Hak Cipta Dilindungi."
+}
+}
